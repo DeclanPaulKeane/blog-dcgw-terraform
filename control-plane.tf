@@ -2,7 +2,7 @@ resource "konnect_gateway_control_plane" "global_control_plane" {
   name          = "Global Control Plane"
   cluster_type  = "CLUSTER_TYPE_CONTROL_PLANE"
   cloud_gateway = true
-  description   = "Control plane in us-west-2 region"
+  description   = "Global Multi Cloud Control plane"
   auth_type     = "pinned_client_certs"
   proxy_urls    = []
 }
