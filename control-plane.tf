@@ -23,7 +23,7 @@ resource "konnect_cloud_gateway_configuration" "global_gateway_config" {
           max_rps  = 100
         }
       }
-      cloud_gateway_network_id = "39ed0640-ca53-4796-ad12-1ebc996a3b12"
+      cloud_gateway_network_id = "<update>" # <----- Update with Network ID or create own network
     }
     ,
     {
@@ -36,7 +36,7 @@ resource "konnect_cloud_gateway_configuration" "global_gateway_config" {
           max_rps  = 100
         }
       }
-      cloud_gateway_network_id = "049144ab-6242-4cd3-af57-f0f36869ff2f"
+      cloud_gateway_network_id = "<update>" #<----- Update with Network ID or create own network
     }
   ]
 
